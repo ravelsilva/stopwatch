@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style-type: none;
+  font-family: "Oswald", sans-serif;
+}
+.hidden {
+  display: none;
+}
+body {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-image: url(/images/gradientImage.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.stopwatch {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 1000px;
+}
+
+#time {
+  font-size: 250px;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  font-weight: bolder;
+  color: #f6ebf95e;
+}
+#time p {
+  margin: 2px;
+  width: 280px;
+}
+.buttons {
+  width: 100%;
+}
+button {
+  border: none;
+  font-size: 60px;
+  padding: 0 10px;
+  cursor: pointer;
+  margin-top: 150px;
+  padding: 20px 0;
+  border: 1px solid #ffffff15;
+  background: #000;
+  text-transform: uppercase;
+  color: #ffffff;
+  width: 100%;
+}
+
+button:hover {
+  background-color: #ffffff37;
+}
+
+.break_time {
+  display: flex;
+  justify-content: center;
+}
+.break_time button {
+  width: 640px;
+}
