@@ -14,6 +14,10 @@ A simple stopwatch implemented using HTML, CSS, and JavaScript.
 2. **Pause Stopwatch**: During timing, click "Pause" to temporarily stop the timer.
 3. **Reset Stopwatch**: Click "Reset" to set the stopwatch back to 00:00:00 and restart the timer.
 
+#### Print of screen
+![Captura de tela de 2024-07-13 09-08-20](https://github.com/user-attachments/assets/39f3a321-e070-4e80-aa43-f81668435d3e)
+
+
 #### Styling
 
 The stopwatch has a minimalist design with large numbers displayed in the center of the screen, utilizing the "Oswald" font from Google Fonts.
