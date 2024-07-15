@@ -19,7 +19,7 @@ let hours = initialHours;
 
 // Evento para iniciar o temporizador
 btnStart.addEventListener("click", () => {
-  interval = setInterval(updateTime, 0.5);
+  interval = setInterval(updateTime, 1000);
   if (!btnStart.classList.contains("hidden")) {
     btnStart.classList.add("hidden");
     btnPause.classList.remove("hidden");
